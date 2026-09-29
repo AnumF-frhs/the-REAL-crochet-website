@@ -14,19 +14,30 @@ F7E1D7 beige
   background: #724F3A;
 }
 
+.cream {
+    background-color: #F7E1D7;
+}
+
+.pink {
+    background-color: #EDAFB8;
+}
+
+.mint {
+    background-color: #CCDECD;
+}
 
 /*styles for TEXT goes here!*/
 a {
-    align-items: end;
+    justify-content: flex-end
 }
 
 
-h1 {
+h1,h2 {
   font-family: "Annie Use Your Telescope", cursive;
   font-weight: 400;
   font-style: normal;
 }
-h5 {
+h5,h3,p {
   font-family: "Sansita", sans-serif;
   font-weight: 400;
   font-style: normal;
