@@ -9,6 +9,15 @@ F7E1D7 beige
 
 */
 
+.col {
+     border: 1px solid black;
+}
+.col-2 {
+     border: 1px solid black;
+}
+.col-6 {
+     border: 1px solid black;
+}
 
 .logo-page {
   background: #724F3A;
@@ -28,7 +37,7 @@ F7E1D7 beige
 
 /*styles for TEXT goes here!*/
 a {
-    justify-content: flex-end
+    /* justify-content: flex-end */
 }
 
 
@@ -60,12 +69,12 @@ h5,h3,p {
 
 /* navbar*/
 .navbar a {
-    position: relative;
+    /* position: relative; */
     font-size: 18px;
     color: #724F3A;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 40px;
+    /* margin-left: 40px; */
 }
 
 
