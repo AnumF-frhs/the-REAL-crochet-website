@@ -45,6 +45,7 @@ h1,h2 {
   font-family: "Annie Use Your Telescope", cursive;
   font-weight: 400;
   font-style: normal;
+  color: #724F3A;
 }
 h5,h3,p {
   font-family: "Sansita", sans-serif;
@@ -68,7 +69,7 @@ h5,h3,p {
 
 
 /* navbar*/
-.navbar a {
+.navigation a {
     /* position: relative; */
     font-size: 18px;
     color: #724F3A;
@@ -76,23 +77,19 @@ h5,h3,p {
     text-decoration: none;
     /* margin-left: 40px; */
 }
-
-
-/* .navbar a::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: #ffffff;
-    transition: .3s;
+/* .navigation {
+    border-bottom: 2px solid black;
+    margin-top: 20px;
+    align-items: center;
 }
 
 
-.navbar a:hover::before {
-    width: 100%;
-} */
+.navigation .col-1:first-child {
+    margin-left: 30px;
+}
+ */
+
+
 
 /*calendar styles*/
 /* Core resetting and setup */
@@ -174,3 +171,30 @@ h5,h3,p {
   font-weight: bold;
 }
 
+footer {
+  text-align: center;
+  padding: 3px;
+  color: white;
+}
+
+#blackcat {
+  width: 360px;
+  height: 420px;
+ transform: translateX(-75px);
+}
+
+#btn {
+  background-color: #724F3A;
+  border-color: #724F3A;
+  font-family: "Annie Use Your Telescope", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffff;
+}
+
+#tut {
+    font-family: "Annie Use Your Telescope", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #724F3A;
+}
