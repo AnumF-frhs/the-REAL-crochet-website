@@ -36,9 +36,9 @@ F7E1D7 beige
 }
 
 /*styles for TEXT goes here!*/
-a {
+/* a {
     /* justify-content: flex-end */
-}
+/*} */
 
 
 h1,h2 {
@@ -123,7 +123,7 @@ h5,h3,p {
 
 /* Header styling */
 .calendar-header {
-  background-color: #007bff;
+  background-color: #CCDECD;
   color: #ffffff;
   padding: 20px;
   text-align: center;
@@ -135,9 +135,10 @@ h5,h3,p {
   grid-template-columns: repeat(7, 1fr);
   text-align: center;
   font-weight: 600;
-  background-color: #f1f1f1;
-  color: #333;
+  background-color: #EDAFB8;
+  color: #724F3A;
   padding: 10px 0;
+    font-family: "Annie Use Your Telescope", cursive;
 }
 
 /* Grid layout for the actual dates */
@@ -146,6 +147,7 @@ h5,h3,p {
   grid-template-columns: repeat(7, 1fr);
   padding: 10px;
   gap: 5px;
+ font-family: "Annie Use Your Telescope", cursive;
 }
 
 /* Individual day square styles */
@@ -167,7 +169,7 @@ h5,h3,p {
 
 /* Today / Highlighted Active day style */
 .day.text-muted {
-  background-color: #007bff;
+  background-color: #CCDECD;
   color: #ffffff;
   font-weight: bold;
 }
