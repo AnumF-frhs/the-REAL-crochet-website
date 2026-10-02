@@ -9,7 +9,7 @@ F7E1D7 beige
 
 */
 
-.col {
+/* .col {
      border: 1px solid black;
 }
 .col-2 {
@@ -17,7 +17,7 @@ F7E1D7 beige
 }
 .col-6 {
      border: 1px solid black;
-}
+} */
 
 .logo-page {
   background: #724F3A;
@@ -39,6 +39,9 @@ F7E1D7 beige
 /* a {
     /* justify-content: flex-end */
 /*} */
+
+
+
 
 
 h1,h2 {
@@ -75,13 +78,16 @@ h5,h3,p {
     color: #724F3A;
     font-weight: 500;
     text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
     /* margin-left: 40px; */
 }
 /* .navigation {
     border-bottom: 2px solid black;
     margin-top: 20px;
     align-items: center;
-}
+} */
+
 
 
 .navigation .col-1:first-child {
@@ -100,13 +106,12 @@ h5,h3,p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* body {
-  display: flex;
+body {
+  display: grid;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background-color: #f4f7f6;
-} */
+  text-align: center;
+}
 
 /* Calendar Container Wrapper */
 .calendar-container {
@@ -183,6 +188,10 @@ footer {
  transform: translateX(-75px);
 }
 
+#oclogo {
+  transform: translateX(-200px);
+}
+
 #btn {
   background-color: #724F3A;
   border-color: #724F3A;
@@ -199,6 +208,12 @@ font-family: "Sansita", sans-serif;
   color:#724F3A
 }
 
+#bigtext {
+
+  transform: translateY(75px);
+  /* transform: translateX(6px); */
+}
+
 #exampleInputPassword1 {
   font-family: "Sansita", sans-serif;
   font-weight: 400;
@@ -212,3 +227,14 @@ font-family: "Sansita", sans-serif;
   font-style: normal;
   color: #724F3A;
 }
+
+/* h5 {
+  text-color: black;
+} */
+
+/* .splashscreen {
+    padding: 80px 40px;
+  
+    justify-content: center;
+}
+ */
